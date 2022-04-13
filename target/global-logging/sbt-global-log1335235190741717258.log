@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 1.8.0_291)
+[debug] Load.defaultLoad until apply took 1795.445ms
+[debug]           Load.loadUnit: plugins took 209.9675ms
+[debug]           Load.loadUnit: defsScala took 0.5687ms
+[debug] [Loading] Scanning directory C:\Users\Vinodh\Downloads\SensorStats\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Vinodh\Downloads\SensorStats\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 46.8625 ms
+[debug]               Load.resolveProject(sensorstats-build) took 93.9165ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id sensorstats-build, base: C:\Users\Vinodh\Downloads\SensorStats\project, plugins: List(<none>))) took 190.3371ms
+[debug] [Loading] Done in C:\Users\Vinodh\Downloads\SensorStats\project, returning: (sensorstats-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 235.5647ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.5868ms
+[debug]         Load.loadUnit(file:/C:/Users/Vinodh/Downloads/SensorStats/project/, ...) took 460.6831ms
+[debug]       Load.apply: load took 737.7027ms
+[debug]       Load.apply: resolveProjects took 12.7405ms
+[debug]       Load.apply: finalTransforms took 115.761ms
+[debug]       Load.apply: config.delegates took 22.9819ms
+[debug]       Load.apply: Def.make(settings)... took 1465.039ms
+[debug]       Load.apply: structureIndex took 334.5429ms
+[debug]       Load.apply: mkStreams took 4.1215ms
+[info] loading project definition from C:\Users\Vinodh\Downloads\SensorStats\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 7158.3397ms
+[debug]     Load.loadUnit: defsScala took 0.0094ms
+[debug] [Loading] Scanning directory C:\Users\Vinodh\Downloads\SensorStats
+[debug]       Load.loadUnit: mkEval took 24.6034ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 5.0999 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 11.6764ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\Vinodh\Downloads\SensorStats, plugins: List(<none>))) took 19.7444ms
+[debug] [Loading] Done in C:\Users\Vinodh\Downloads\SensorStats, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 5616.7902ms
+[debug]     Load.loadUnit: cleanEvalClasses took 35.3374ms
+[debug]   Load.loadUnit(file:/C:/Users/Vinodh/Downloads/SensorStats/, ...) took 12812.7128ms
+[debug] Load.apply: load took 12873.3226ms
+[debug] Load.apply: resolveProjects took 0.4819ms
+[debug] Load.apply: finalTransforms took 41.2752ms
+[debug] Load.apply: config.delegates took 2.2179ms
+[debug] Load.apply: Def.make(settings)... took 433.8613ms
+[debug] Load.apply: structureIndex took 118.196ms
+[debug] Load.apply: mkStreams took 0.0048ms
+[info] set current project to SensorStats (in build file:/C:/Users/Vinodh/Downloads/SensorStats/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-a26c389f8af416b5256b
+[debug] Writing bsp connection file
+[info] started sbt server
